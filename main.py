@@ -4,7 +4,7 @@ import imutils
 import easyocr
 import sys
 
-img = cv2.imread('26.png')
+img = cv2.imread('26.bmp')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img1 = cv2.cvtColor(gray, cv2.COLOR_BGR2RGB)
 
